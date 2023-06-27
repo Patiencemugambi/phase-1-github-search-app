@@ -9,7 +9,8 @@
 
 h2{
   font-size: 5rem;
-  animation: twinkling 2s infinite;
+  animation: twinkling 40s infinite;
+  text-align: center;
 
 
 }
@@ -25,6 +26,7 @@ ul {
 
 li{
 margin: 20px;
+
 }
 
 img{
@@ -52,7 +54,7 @@ body{
 .all{
   background-color: black;
   /* height: auto; */
-  width: 500px;
+  width: 700px;
   border-radius: 8px;
   box-shadow: 0 0 10px 15px rgba(236, 6, 36, 0.753);
 
@@ -91,13 +93,18 @@ input{
     transition: all 0.9s;
     background-color: white;
     font-size: 1.2rem;
+    margin: 5px;
+    margin-top: 15px;
+    
+    box-shadow: 2px 2px 5px #ff0000;
+
 
 }
 
 input:hover{
   border: 1px solid #ff0000;
   transform: translateY(-2px);
-  box-shadow: 2px 2px 5px #ff0000;
+  /* box-shadow: 2px 2px 5px #ff0000; */
   color: white;
   background-color: #f0080854;
 
@@ -107,5 +114,9 @@ input:hover{
 
 #submit-button{
   cursor: pointer;
+  margin-right: 10px;
 }
 
+#search-input{
+  margin-left: 10px;
+}
