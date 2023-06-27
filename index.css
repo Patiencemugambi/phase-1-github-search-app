@@ -9,7 +9,7 @@
 
 h2{
   font-size: 5rem;
-  /* animation: twinkling 2s infinite; */
+  animation: twinkling 2s infinite;
 
 
 }
@@ -20,12 +20,11 @@ h2{
 
 ul {
   list-style: none;
-  margin-left: 30%;
+
 }
 
 li{
 margin: 20px;
-
 }
 
 img{
@@ -61,6 +60,7 @@ body{
 
 
 
+
  @keyframes twinkling {
     0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
         color: #FFC107;
@@ -76,4 +76,36 @@ body{
     }
 } 
 
+#github-form{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+input{
+  padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.9s;
+    background-color: white;
+    font-size: 1.2rem;
+
+}
+
+input:hover{
+  border: 1px solid #ff0000;
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px #ff0000;
+  color: white;
+  background-color: #f0080854;
+
+
+  transition: all 0.05s;
+}
+
+#submit-button{
+  cursor: pointer;
+}
 
